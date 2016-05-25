@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device name="MIXTRACKQUAD" author="Atomix Productions" type="MIDI" vid="0x15E4" pid="0x004C" sysexid="F07E??060200013F4C" decks="4">
+    <!-- VDJ8 Audio Properties -->
+    <audio name="MixTrack Quad" description="Numark MixTrack Quad" vid="0x15E4" pid="0x004C" input="1" output="2" mic="no" mixer="yes" />
+
+    <init sendsysex="F000013F7F4C60000404010704F7" />
+    <init sendsysex="B13C0000" />
+    <init sendsysex="B23C0000" />
+    <init sendsysex="B33C0000" />
+    <init sendsysex="B43C0000" />
+
+    <button note="0x4E" name="LAYER_L" channel="0" />
+    <button note="0x5D" name="LAYER_R" channel="0" />
+
+    <button note="0x40" name="SYNC" deck="1" channel="1"/>
+    <button note="0x42" name="PLAY_PAUSE" deck="1" channel="1"/>
+    <button note="0x43" name="PITCH-" deck="1" channel="1"/>
+    <button note="0x44" name="PITCH+" deck="1" channel="1"/>
+    <button note="0x48" name="SCRATCH" deck="1" channel="1"/>
+    <button note="0x4A" name="STUTTER" deck="1" channel="1"/>
+    <button note="0x4B" name="LOAD" deck="1" channel="1"/>
+    <button note="0x33" name="CUE" deck="1" channel="1"/>
+    <button note="0x59" name="FX1" deck="1" channel="1"/>
+    <button note="0x5A" name="FX2" deck="1" channel="1"/>
+    <button note="0x5B" name="FX3" deck="1" channel="1"/>
+    <button note="0x5C" name="RESET" deck="1" channel="1"/>
+    <button note="0x4D" name="JOG_TOUCH" deck="1" channel="1"/>
+    <button note="0x47" name="PFL" deck="1" channel="1"/>
+    <button note="0x61" name="SHIFT" deck="1" channel="1"/>
+
+    <button note="0x40" name="SYNC" deck="2" channel="2"/>
+    <button note="0x42" name="PLAY_PAUSE" deck="2" channel="2"/>
+    <button note="0x43" name="PITCH-" deck="2" channel="2"/>
+    <button note="0x44" name="PITCH+" deck="2" channel="2"/>
+    <button note="0x48" name="SCRATCH" deck="2" channel="2"/>
+    <button note="0x4A" name="STUTTER" deck="2" channel="2"/>
+    <button note="0x4C" name="LOAD" deck="2" channel="2"/>
+    <button note="0x33" name="CUE" deck="2" channel="2"/>
+    <button note="0x59" name="FX1" deck="2" channel="2"/>
+    <button note="0x5A" name="FX2" deck="2" channel="2"/>
+    <button note="0x5B" name="FX3" deck="2" channel="2"/>
+    <button note="0x5C" name="RESET" deck="2" channel="2"/>
+    <button note="0x4D" name="JOG_TOUCH" deck="2" channel="2"/>
+    <button note="0x47" name="PFL" deck="2" channel="2"/>
+    <button note="0x62" name="SHIFT" deck="2" channel="2"/>
+
+    <button note="0x40" name="SYNC" deck="3" channel="3"/>
+    <button note="0x42" name="PLAY_PAUSE" deck="3" channel="3"/>
+    <button note="0x43" name="PITCH-" deck="3" channel="3"/>
+    <button note="0x44" name="PITCH+" deck="3" channel="3"/>
+    <button note="0x48" name="SCRATCH" deck="3" channel="3"/>
+    <button note="0x4A" name="STUTTER" deck="3" channel="3"/>
+    <button note="0x4B" name="LOAD" deck="3" channel="3"/>
+    <button note="0x33" name="CUE" deck="3" channel="3"/>
+    <button note="0x59" name="FX1" deck="3" channel="3"/>
+    <button note="0x5A" name="FX2" deck="3" channel="3"/>
+    <button note="0x5B" name="FX3" deck="3" channel="3"/>
+    <button note="0x5C" name="RESET" deck="3" channel="3"/>
+    <button note="0x4D" name="JOG_TOUCH" deck="3" channel="3"/>
+    <button note="0x47" name="PFL_4D" deck="3" channel="3"/>
+    <button note="0x61" name="SHIFT" deck="3" channel="3"/>
+
+    <button note="0x40" name="SYNC" deck="4" channel="4"/>
+    <button note="0x42" name="PLAY_PAUSE" deck="4" channel="4"/>
+    <button note="0x43" name="PITCH-" deck="4" channel="4"/>
+    <button note="0x44" name="PITCH+" deck="4" channel="4"/>
+    <button note="0x48" name="SCRATCH" deck="4" channel="4"/>
+    <button note="0x4A" name="STUTTER" deck="4" channel="4"/>
+    <button note="0x4C" name="LOAD" deck="4" channel="4"/>
+    <button note="0x33" name="CUE" deck="4" channel="4"/>
+    <button note="0x59" name="FX1" deck="4" channel="4"/>
+    <button note="0x5A" name="FX2" deck="4" channel="4"/>
+    <button note="0x5B" name="FX3" deck="4" channel="4"/>
+    <button note="0x5C" name="RESET" deck="4" channel="4"/>
+    <button note="0x4D" name="JOG_TOUCH" deck="4" channel="4"/>
+    <button note="0x47" name="PFL_4D" deck="4" channel="4"/>
+    <button note="0x62" name="SHIFT" deck="4" channel="4"/>
+
+    <button note="0x52" name="TRACK_ENTER" channel="0"/>
+    <button note="0x77" name="BACK" />
+
+    ** LOOP MODE **
+    <button note="0x53" name="LOOP_IN" deck="1" channel="1"/>
+    <button note="0x54" name="LOOP_OUT" deck="1" channel="1"/>
+    <button note="0x55" name="RELOOP" deck="1" channel="1"/>
+    <button note="0x63" name="LOOP_SIZE" deck="1" channel="1"/>
+    <button note="0x53" name="LOOP_IN" deck="2" channel="2"/>
+    <button note="0x54" name="LOOP_OUT" deck="2" channel="2"/>
+    <button note="0x55" name="RELOOP" deck="2" channel="2"/>
+    <button note="0x63" name="LOOP_SIZE" deck="2" channel="2"/>
+    <button note="0x53" name="LOOP_IN" deck="3" channel="3"/>
+    <button note="0x54" name="LOOP_OUT" deck="3" channel="3"/>
+    <button note="0x55" name="RELOOP" deck="3" channel="3"/>
+    <button note="0x63" name="LOOP_SIZE" deck="3" channel="3"/>
+    <button note="0x53" name="LOOP_IN" deck="4" channel="4"/>
+    <button note="0x54" name="LOOP_OUT" deck="4" channel="4"/>
+    <button note="0x55" name="RELOOP" deck="4" channel="4"/>
+    <button note="0x63" name="LOOP_SIZE" deck="4" channel="4"/>
+
+    ** SAMPLER MODE **
+    <button note="0x65" name="SAMPLER_1" deck="1" channel="1"/>
+    <button note="0x66" name="SAMPLER_2" deck="1" channel="1"/>
+    <button note="0x67" name="SAMPLER_3" deck="1" channel="1"/>
+    <button note="0x68" name="SAMPLER_4" deck="1" channel="1"/>
+    <button note="0x65" name="SAMPLER_5" deck="2" channel="2"/>
+    <button note="0x66" name="SAMPLER_6" deck="2" channel="2"/>
+    <button note="0x67" name="SAMPLER_7" deck="2" channel="2"/>
+    <button note="0x68" name="SAMPLER_8" deck="2" channel="2"/>
+    <button note="0x65" name="SAMPLER_1" deck="3" channel="3"/>
+    <button note="0x66" name="SAMPLER_2" deck="3" channel="3"/>
+    <button note="0x67" name="SAMPLER_3" deck="3" channel="3"/>
+    <button note="0x68" name="SAMPLER_4" deck="3" channel="3"/>
+    <button note="0x65" name="SAMPLER_5" deck="4" channel="4"/>
+    <button note="0x66" name="SAMPLER_6" deck="4" channel="4"/>
+    <button note="0x67" name="SAMPLER_7" deck="4" channel="4"/>
+    <button note="0x68" name="SAMPLER_8" deck="4" channel="4"/>
+
+    ** HOT CUE MODE **
+    <button note="0x6D" name="HOTCUE_1" deck="1" channel="1"/>
+    <button note="0x6E" name="HOTCUE_2" deck="1" channel="1"/>
+    <button note="0x6F" name="HOTCUE_3" deck="1" channel="1"/>
+    <button note="0x70" name="HOTCUE_4" deck="1" channel="1"/>
+    <button note="0x6D" name="HOTCUE_1" deck="2" channel="2"/>
+    <button note="0x6E" name="HOTCUE_2" deck="2" channel="2"/>
+    <button note="0x6F" name="HOTCUE_3" deck="2" channel="2"/>
+    <button note="0x70" name="HOTCUE_4" deck="2" channel="2"/>
+    <button note="0x6D" name="HOTCUE_1" deck="3" channel="3"/>
+    <button note="0x6E" name="HOTCUE_2" deck="3" channel="3"/>
+    <button note="0x6F" name="HOTCUE_3" deck="3" channel="3"/>
+    <button note="0x70" name="HOTCUE_4" deck="3" channel="3"/>
+    <button note="0x6D" name="HOTCUE_1" deck="4" channel="4"/>
+    <button note="0x6E" name="HOTCUE_2" deck="4" channel="4"/>
+    <button note="0x6F" name="HOTCUE_3" deck="4" channel="4"/>
+    <button note="0x70" name="HOTCUE_4" deck="4" channel="4"/>
+
+    <slider cc="0x0D" name="PITCH" inverted="true" deck="1" channel="1"/>
+    <slider cc="0x0D" name="PITCH" inverted="true" deck="2" channel="2"/>
+    <slider cc="0x0D" name="PITCH" inverted="true" deck="3" channel="3"/>
+    <slider cc="0x0D" name="PITCH" inverted="true" deck="4" channel="4"/>
+
+    <slider cc="0x10" name="EQ_HIGH" zero="0x40" deck="1" channel="0"/>
+    <slider cc="0x11" name="EQ_MID" zero="0x40" deck="1" channel="0"/>
+    <slider cc="0x12" name="EQ_LOW" zero="0x40" deck="1" channel="0"/>
+    <slider cc="0x14" name="VOLUME" deck="1" channel="0"/>
+    <slider cc="0x15" name="EQ_HIGH" zero="0x40" deck="2" channel="0"/>
+    <slider cc="0x16" name="EQ_MID" zero="0x40" deck="2" channel="0"/>
+    <slider cc="0x17" name="EQ_LOW" zero="0x40" deck="2" channel="0"/>
+    <slider cc="0x19" name="VOLUME" deck="2" channel="0"/>
+    <slider cc="0x1A" name="EQ_HIGH_4D" zero="0x40" deck="3" channel="0"/>
+    <slider cc="0x1B" name="EQ_MID_4D" zero="0x40" deck="3" channel="0"/>
+    <slider cc="0x1C" name="EQ_LOW_4D" zero="0x40" deck="3" channel="0"/>
+    <slider cc="0x1E" name="VOLUME_4D" deck="3" channel="0"/>
+    <slider cc="0x1F" name="EQ_HIGH_4D" zero="0x40" deck="4" channel="0"/>
+    <slider cc="0x20" name="EQ_MID_4D" zero="0x40" deck="4" channel="0"/>
+    <slider cc="0x21" name="EQ_LOW_4D" zero="0x40" deck="4" channel="0"/>
+    <slider cc="0x23" name="VOLUME_4D" deck="4" channel="0"/>
+
+    <encoder cc="0x24" name="BROWSE" channel="0" />
+
+    <jog cc="0x25" name="JOG" full="600" deck="1" channel="1"/>
+    <jog cc="0x25" name="JOG" full="600" deck="2" channel="2"/>
+    <jog cc="0x25" name="JOG" full="600" deck="3" channel="3"/>
+    <jog cc="0x25" name="JOG" full="600" deck="4" channel="4"/>
+
+    <encoder cc="0x26" name="FX1_SEL" deck="1" channel="1"/>
+    <encoder cc="0x27" name="FX2_SEL" deck="1" channel="1"/>
+    <encoder cc="0x28" name="FX3_SEL" deck="1" channel="1"/>
+    <encoder cc="0x29" name="BEATS" deck="1" channel="1"/>
+    <encoder cc="0x26" name="FX1_SEL" deck="2" channel="2"/>
+    <encoder cc="0x27" name="FX2_SEL" deck="2" channel="2"/>
+    <encoder cc="0x28" name="FX3_SEL" deck="2" channel="2"/>
+    <encoder cc="0x29" name="BEATS" deck="2" channel="2"/>
+    <encoder cc="0x26" name="FX1_SEL" deck="3" channel="3"/>
+    <encoder cc="0x27" name="FX2_SEL" deck="3" channel="3"/>
+    <encoder cc="0x28" name="FX3_SEL" deck="3" channel="3"/>
+    <encoder cc="0x29" name="BEATS" deck="3" channel="3"/>
+    <encoder cc="0x26" name="FX1_SEL" deck="4" channel="4"/>
+    <encoder cc="0x27" name="FX2_SEL" deck="4" channel="4"/>
+    <encoder cc="0x28" name="FX3_SEL" deck="4" channel="4"/>
+    <encoder cc="0x29" name="BEATS" deck="4" channel="4"/>
+
+    <slider cc="0x2A" name="MASTER" channel="0" />
+    <slider cc="0x0A" name="CROSSFADER" inverted="true" channel="0" />
+    <slider cc="0x0B" name="CUE_VOLUME" channel="0" />
+    <slider cc="0x0C" name="CUE_MIX" channel="0" />
+
+
+    <led note="0x40" name="LED_SYNC" default="SYNC" deck="1" channel="1"/>
+    <led note="0x42" name="LED_PLAYPAUSE" default="PAUSE" deck="1" channel="1"/>
+    <led note="0x48" name="LED_SCRATCH" default="SCRATCH" deck="1" channel="1"/>
+    <led note="0x4A" name="LED_STUTTER" default="STUTTER" deck="1" channel="1"/>
+    <led note="0x33" name="LED_CUE" default="CUE" deck="1" channel="1"/>
+    <led note="0x0D" name="LED_PITCH" deck="1" channel="1"/>
+    <led note="0x47" name="LED_PFL" default="PFL" deck="1" channel="1"/>
+
+    <led note="0x40" name="LED_SYNC" default="SYNC" deck="2" channel="2"/>
+    <led note="0x42" name="LED_PLAYPAUSE" default="PAUSE" deck="2" channel="2"/>
+    <led note="0x48" name="LED_SCRATCH" default="SCRATCH" deck="2" channel="2"/>
+    <led note="0x4A" name="LED_STUTTER" default="STUTTER" deck="2" channel="2"/>
+    <led note="0x33" name="LED_CUE" default="CUE" deck="2" channel="2"/>
+    <led note="0x0D" name="LED_PITCH" deck="2" channel="2"/>
+    <led note="0x47" name="LED_PFL" default="PFL" deck="2" channel="2"/>
+
+    <led note="0x40" name="LED_SYNC" default="SYNC" deck="3" channel="3"/>
+    <led note="0x42" name="LED_PLAYPAUSE" default="PAUSE" deck="3" channel="3"/>
+    <led note="0x48" name="LED_SCRATCH" default="SCRATCH" deck="3" channel="3"/>
+    <led note="0x4A" name="LED_STUTTER" default="STUTTER" deck="3" channel="3"/>
+    <led note="0x33" name="LED_CUE" default="CUE" deck="3" channel="3"/>
+    <led note="0x0D" name="LED_PITCH" deck="3" channel="3"/>
+    <led note="0x47" name="LED_PFL_4D" default="PFL_4D" deck="3" channel="3"/>
+
+    <led note="0x40" name="LED_SYNC" default="SYNC" deck="4" channel="4"/>
+    <led note="0x42" name="LED_PLAYPAUSE" default="PAUSE" deck="4" channel="4"/>
+    <led note="0x48" name="LED_SCRATCH" default="SCRATCH" deck="4" channel="4"/>
+    <led note="0x4A" name="LED_STUTTER" default="STUTTER" deck="4" channel="4"/>
+    <led note="0x33" name="LED_CUE" default="CUE" deck="4" channel="4"/>
+    <led note="0x0D" name="LED_PITCH" deck="4" channel="4"/>
+    <led note="0x47" name="LED_PFL_4D" default="PFL_4D" deck="4" channel="4"/>
+
+    <led note="0x4B" name="LED_FOLDER" />
+    <led note="0x4C" name="LED_FILE" />
+
+    <led note="0x59" zero="0x00" value="0x03" name="LED_FX1" default="FX1" deck="1" channel="1"/>
+    <led note="0x5A" zero="0x00" value="0x03" name="LED_FX2" default="FX2" deck="1" channel="1"/>
+    <led note="0x5B" zero="0x00" value="0x03" name="LED_FX3" default="FX3" deck="1" channel="1"/>
+    <led note="0x5C" zero="0x00" value="0x04" name="LED_RESET" default="RESET" deck="1" channel="1"/>
+    <led note="0x59" zero="0x00" value="0x03" name="LED_FX1" default="FX1" deck="2" channel="2"/>
+    <led note="0x5A" zero="0x00" value="0x03" name="LED_FX2" default="FX2" deck="2" channel="2"/>
+    <led note="0x5B" zero="0x00" value="0x03" name="LED_FX3" default="FX3" deck="2" channel="2"/>
+    <led note="0x5C" zero="0x00" value="0x04" name="LED_RESET" default="RESET" deck="2" channel="2"/>
+    <led note="0x59" zero="0x00" value="0x03" name="LED_FX1" default="FX1" deck="3" channel="3"/>
+    <led note="0x5A" zero="0x00" value="0x03" name="LED_FX2" default="FX2" deck="3" channel="3"/>
+    <led note="0x5B" zero="0x00" value="0x03" name="LED_FX3" default="FX3" deck="3" channel="3"/>
+    <led note="0x5C" zero="0x00" value="0x04" name="LED_RESET" default="RESET" deck="3" channel="3"/>
+    <led note="0x59" zero="0x00" value="0x03" name="LED_FX1" default="FX1" deck="4" channel="4"/>
+    <led note="0x5A" zero="0x00" value="0x03" name="LED_FX2" default="FX2" deck="4" channel="4"/>
+    <led note="0x5B" zero="0x00" value="0x03" name="LED_FX3" default="FX3" deck="4" channel="4"/>
+    <led note="0x5C" zero="0x00" value="0x04" name="LED_RESET" default="RESET" deck="4" channel="4"/>
+
+
+    ** LOOP MODE **
+    <led note="0x53" zero="0x00" value="0x08" name="LED_LOOP_IN" default="LOOP_IN" deck="1" channel="1"/>
+    <led note="0x54" zero="0x00" value="0x08" name="LED_LOOP_OUT" default="LOOP_OUT" deck="1" channel="1"/>
+    <led note="0x55" zero="0x00" value="0x08" name="LED_RELOOP" default="RELOOP" deck="1" channel="1"/>
+    <led note="0x63" zero="0x00" value="0x08" name="LED_LOOP_SIZE" default="LOOP_SIZE" deck="1" channel="1"/>
+    <led note="0x53" zero="0x00" value="0x08" name="LED_LOOP_IN" default="LOOP_IN" deck="2" channel="2"/>
+    <led note="0x54" zero="0x00" value="0x08" name="LED_LOOP_OUT" default="LOOP_OUT" deck="2" channel="2"/>
+    <led note="0x55" zero="0x00" value="0x08" name="LED_RELOOP" default="RELOOP" deck="2" channel="2"/>
+    <led note="0x63" zero="0x00" value="0x08" name="LED_LOOP_SIZE" default="LOOP_SIZE" deck="2" channel="2"/>
+    <led note="0x53" zero="0x00" value="0x08" name="LED_LOOP_IN" default="LOOP_IN" deck="3" channel="3"/>
+    <led note="0x54" zero="0x00" value="0x08" name="LED_LOOP_OUT" default="LOOP_OUT" deck="3" channel="3"/>
+    <led note="0x55" zero="0x00" value="0x08" name="LED_RELOOP" default="RELOOP" deck="3" channel="3"/>
+    <led note="0x63" zero="0x00" value="0x08" name="LED_LOOP_SIZE" default="LOOP_SIZE" deck="3" channel="3"/>
+    <led note="0x53" zero="0x00" value="0x08" name="LED_LOOP_IN" default="LOOP_IN" deck="4" channel="4"/>
+    <led note="0x54" zero="0x00" value="0x08" name="LED_LOOP_OUT" default="LOOP_OUT" deck="4" channel="4"/>
+    <led note="0x55" zero="0x00" value="0x08" name="LED_RELOOP" default="RELOOP" deck="4" channel="4"/>
+    <led note="0x63" zero="0x00" value="0x08" name="LED_LOOP_SIZE" default="LOOP_SIZE" deck="4" channel="4"/>
+
+    ** LOOP ROLL MODE **
+    ** Upper 4 **
+    <led note="0x59" zero="0x07" value="0x01" name="LED_ROLL_AUTO1" deck="1" channel="1"/>
+    <led note="0x5A" zero="0x07" value="0x01" name="LED_ROLL_AUTO2" deck="1" channel="1"/>
+    <led note="0x5B" zero="0x07" value="0x01" name="LED_ROLL_AUTO4" deck="1" channel="1"/>
+    <led note="0x5C" zero="0x07" value="0x01" name="LED_ROLL_AUTO16" deck="1" channel="1"/>
+    <led note="0x59" zero="0x07" value="0x01" name="LED_ROLL_AUTO1" deck="2" channel="2"/>
+    <led note="0x5A" zero="0x07" value="0x01" name="LED_ROLL_AUTO2" deck="2" channel="2"/>
+    <led note="0x5B" zero="0x07" value="0x01" name="LED_ROLL_AUTO4" deck="2" channel="2"/>
+    <led note="0x5C" zero="0x07" value="0x01" name="LED_ROLL_AUTO16" deck="2" channel="2"/>
+    <led note="0x59" zero="0x07" value="0x01" name="LED_ROLL_AUTO1" deck="3" channel="3"/>
+    <led note="0x5A" zero="0x07" value="0x01" name="LED_ROLL_AUTO2" deck="3" channel="3"/>
+    <led note="0x5B" zero="0x07" value="0x01" name="LED_ROLL_AUTO4" deck="3" channel="3"/>
+    <led note="0x5C" zero="0x07" value="0x01" name="LED_ROLL_AUTO16" deck="3" channel="3"/>
+    <led note="0x59" zero="0x07" value="0x01" name="LED_ROLL_AUTO1" deck="4" channel="4"/>
+    <led note="0x5A" zero="0x07" value="0x01" name="LED_ROLL_AUTO2" deck="4" channel="4"/>
+    <led note="0x5B" zero="0x07" value="0x01" name="LED_ROLL_AUTO4" deck="4" channel="4"/>
+    <led note="0x5C" zero="0x07" value="0x01" name="LED_ROLL_AUTO16" deck="4" channel="4"/>
+    ** Lower 4 **
+    <led note="0x53" zero="0x07" value="0x01" name="LED_ROLL_LOOP_IN" default="LOOP_IN" deck="1" channel="1"/>
+    <led note="0x54" zero="0x07" value="0x01" name="LED_ROLL_LOOP_OUT" default="LOOP_OUT" deck="1" channel="1"/>
+    <led note="0x55" zero="0x07" value="0x01" name="LED_ROLL_RELOOP" default="RELOOP" deck="1" channel="1"/>
+    <led note="0x63" zero="0x07" value="0x01" name="LED_ROLL_LOOP_SIZE" default="LOOP_SIZE" deck="1" channel="1"/>
+    <led note="0x53" zero="0x07" value="0x01" name="LED_ROLL_LOOP_IN" default="LOOP_IN" deck="2" channel="2"/>
+    <led note="0x54" zero="0x07" value="0x01" name="LED_ROLL_LOOP_OUT" default="LOOP_OUT" deck="2" channel="2"/>
+    <led note="0x55" zero="0x07" value="0x01" name="LED_ROLL_RELOOP" default="RELOOP" deck="2" channel="2"/>
+    <led note="0x63" zero="0x07" value="0x01" name="LED_ROLL_LOOP_SIZE" default="LOOP_SIZE" deck="2" channel="2"/>
+    <led note="0x53" zero="0x07" value="0x01" name="LED_ROLL_LOOP_IN" default="LOOP_IN" deck="3" channel="3"/>
+    <led note="0x54" zero="0x07" value="0x01" name="LED_ROLL_LOOP_OUT" default="LOOP_OUT" deck="3" channel="3"/>
+    <led note="0x55" zero="0x07" value="0x01" name="LED_ROLL_RELOOP" default="RELOOP" deck="3" channel="3"/>
+    <led note="0x63" zero="0x07" value="0x01" name="LED_ROLL_LOOP_SIZE" default="LOOP_SIZE" deck="3" channel="3"/>
+    <led note="0x53" zero="0x07" value="0x01" name="LED_ROLL_LOOP_IN" default="LOOP_IN" deck="4" channel="4"/>
+    <led note="0x54" zero="0x07" value="0x01" name="LED_ROLL_LOOP_OUT" default="LOOP_OUT" deck="4" channel="4"/>
+    <led note="0x55" zero="0x07" value="0x01" name="LED_ROLL_RELOOP" default="RELOOP" deck="4" channel="4"/>
+    <led note="0x63" zero="0x07" value="0x01" name="LED_ROLL_LOOP_SIZE" default="LOOP_SIZE" deck="4" channel="4"/>
+
+    ** LOOP ROLL MODE **
+    ** Upper 4 **
+    <led note="0x59" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x5A" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x5B" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x5C" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x59" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x5A" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x5B" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x5C" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x59" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x5A" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x5B" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x5C" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x59" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    <led note="0x5A" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    <led note="0x5B" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    <led note="0x5C" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    ** Lower 4 **
+    <led note="0x53" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x54" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x55" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x63" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="1" channel="1"/>
+    <led note="0x53" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x54" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x55" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x63" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="2" channel="2"/>
+    <led note="0x53" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x54" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x55" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x63" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="3" channel="3"/>
+    <led note="0x53" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    <led note="0x54" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    <led note="0x55" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+    <led note="0x63" zero="0x00" value="0x07" name="LED_SLIPMODE_ON" deck="4" channel="4"/>
+
+    ** SAMPLER MODE **
+    <led note="0x65" zero="0x00" value="0x0C" name="LED_SAMPLER_1" default="SAMPLER_1" deck="1" channel="1"/>
+    <led note="0x66" zero="0x00" value="0x0C" name="LED_SAMPLER_2" default="SAMPLER_2" deck="1" channel="1"/>
+    <led note="0x67" zero="0x00" value="0x0C" name="LED_SAMPLER_3" default="SAMPLER_3" deck="1" channel="1"/>
+    <led note="0x68" zero="0x00" value="0x0C" name="LED_SAMPLER_4" default="SAMPLER_4" deck="1" channel="1"/>
+    <led note="0x65" zero="0x00" value="0x0C" name="LED_SAMPLER_5" default="SAMPLER_5" deck="2" channel="2"/>
+    <led note="0x66" zero="0x00" value="0x0C" name="LED_SAMPLER_6" default="SAMPLER_6" deck="2" channel="2"/>
+    <led note="0x67" zero="0x00" value="0x0C" name="LED_SAMPLER_7" default="SAMPLER_7" deck="2" channel="2"/>
+    <led note="0x68" zero="0x00" value="0x0C" name="LED_SAMPLER_8" default="SAMPLER_8" deck="2" channel="2"/>
+    <led note="0x65" zero="0x00" value="0x0C" name="LED_SAMPLER_1" default="SAMPLER_1" deck="3" channel="3"/>
+    <led note="0x66" zero="0x00" value="0x0C" name="LED_SAMPLER_2" default="SAMPLER_2" deck="3" channel="3"/>
+    <led note="0x67" zero="0x00" value="0x0C" name="LED_SAMPLER_3" default="SAMPLER_3" deck="3" channel="3"/>
+    <led note="0x68" zero="0x00" value="0x0C" name="LED_SAMPLER_4" default="SAMPLER_4" deck="3" channel="3"/>
+    <led note="0x65" zero="0x00" value="0x0C" name="LED_SAMPLER_5" default="SAMPLER_5" deck="4" channel="4"/>
+    <led note="0x66" zero="0x00" value="0x0C" name="LED_SAMPLER_6" default="SAMPLER_6" deck="4" channel="4"/>
+    <led note="0x67" zero="0x00" value="0x0C" name="LED_SAMPLER_7" default="SAMPLER_7" deck="4" channel="4"/>
+    <led note="0x68" zero="0x00" value="0x0C" name="LED_SAMPLER_8" default="SAMPLER_8" deck="4" channel="4"/>
+
+    ** HOT CUE MODE **
+    <led note="0x6D" zero="0x00" value="0x05" name="LED_HOTCUE_1" default="HOTCUE_1" deck="1" channel="1"/>
+    <led note="0x6E" zero="0x00" value="0x05" name="LED_HOTCUE_2" default="HOTCUE_2" deck="1" channel="1"/>
+    <led note="0x6F" zero="0x00" value="0x05" name="LED_HOTCUE_3" default="HOTCUE_3" deck="1" channel="1"/>
+    <led note="0x70" zero="0x00" value="0x05" name="LED_HOTCUE_4" default="HOTCUE_4" deck="1" channel="1"/>
+    <led note="0x6D" zero="0x00" value="0x05" name="LED_HOTCUE_1" default="HOTCUE_1" deck="2" channel="2"/>
+    <led note="0x6E" zero="0x00" value="0x05" name="LED_HOTCUE_2" default="HOTCUE_2" deck="2" channel="2"/>
+    <led note="0x6F" zero="0x00" value="0x05" name="LED_HOTCUE_3" default="HOTCUE_3" deck="2" channel="2"/>
+    <led note="0x70" zero="0x00" value="0x05" name="LED_HOTCUE_4" default="HOTCUE_4" deck="2" channel="2"/>
+    <led note="0x6D" zero="0x00" value="0x05" name="LED_HOTCUE_1" default="HOTCUE_1" deck="3" channel="3"/>
+    <led note="0x6E" zero="0x00" value="0x05" name="LED_HOTCUE_2" default="HOTCUE_2" deck="3" channel="3"/>
+    <led note="0x6F" zero="0x00" value="0x05" name="LED_HOTCUE_3" default="HOTCUE_3" deck="3" channel="3"/>
+    <led note="0x70" zero="0x00" value="0x05" name="LED_HOTCUE_4" default="HOTCUE_4" deck="3" channel="3"/>
+    <led note="0x6D" zero="0x00" value="0x05" name="LED_HOTCUE_1" default="HOTCUE_1" deck="4" channel="4"/>
+    <led note="0x6E" zero="0x00" value="0x05" name="LED_HOTCUE_2" default="HOTCUE_2" deck="4" channel="4"/>
+    <led note="0x6F" zero="0x00" value="0x05" name="LED_HOTCUE_3" default="HOTCUE_3" deck="4" channel="4"/>
+    <led note="0x70" zero="0x00" value="0x05" name="LED_HOTCUE_4" default="HOTCUE_4" deck="4" channel="4"/>
+
+    <led note="0x6D" zero="0x00" value="0x01" name="LED_HOTCUE_1_D" deck="1" channel="1"/>
+    <led note="0x6E" zero="0x00" value="0x01" name="LED_HOTCUE_2_D" deck="1" channel="1"/>
+    <led note="0x6F" zero="0x00" value="0x01" name="LED_HOTCUE_3_D" deck="1" channel="1"/>
+    <led note="0x70" zero="0x00" value="0x01" name="LED_HOTCUE_4_D" deck="1" channel="1"/>
+    <led note="0x6D" zero="0x00" value="0x01" name="LED_HOTCUE_1_D" deck="2" channel="2"/>
+    <led note="0x6E" zero="0x00" value="0x01" name="LED_HOTCUE_2_D" deck="2" channel="2"/>
+    <led note="0x6F" zero="0x00" value="0x01" name="LED_HOTCUE_3_D" deck="2" channel="2"/>
+    <led note="0x70" zero="0x00" value="0x01" name="LED_HOTCUE_4_D" deck="2" channel="2"/>
+    <led note="0x6D" zero="0x00" value="0x01" name="LED_HOTCUE_1_D" deck="3" channel="3"/>
+    <led note="0x6E" zero="0x00" value="0x01" name="LED_HOTCUE_2_D" deck="3" channel="3"/>
+    <led note="0x6F" zero="0x00" value="0x01" name="LED_HOTCUE_3_D" deck="3" channel="3"/>
+    <led note="0x70" zero="0x00" value="0x01" name="LED_HOTCUE_4_D" deck="3" channel="3"/>
+    <led note="0x6D" zero="0x00" value="0x01" name="LED_HOTCUE_1_D" deck="4" channel="4"/>
+    <led note="0x6E" zero="0x00" value="0x01" name="LED_HOTCUE_2_D" deck="4" channel="4"/>
+    <led note="0x6F" zero="0x00" value="0x01" name="LED_HOTCUE_3_D" deck="4" channel="4"/>
+    <led note="0x70" zero="0x00" value="0x01" name="LED_HOTCUE_4_D" deck="4" channel="4"/>
+
+    ** JOG LED **
+    <bar cc="0x3D" min="0x00" max="0x0C" name="LED_JOG" deck="1" channel="1" />
+    <bar cc="0x3D" min="0x00" max="0x0C" name="LED_JOG" deck="2" channel="2" />
+    <bar cc="0x3D" min="0x00" max="0x0C" name="LED_JOG" deck="3" channel="3" />
+    <bar cc="0x3D" min="0x00" max="0x0C" name="LED_JOG" deck="4" channel="4" />
+
+    <bar cc="0x3C" min="0x01" max="0x06" inverted="true" name="LED_JOG_ON" deck="1" channel="1" />
+    <bar cc="0x3C" min="0x01" max="0x06" inverted="true" name="LED_JOG_ON" deck="2" channel="2" />
+    <bar cc="0x3C" min="0x01" max="0x06" inverted="true" name="LED_JOG_ON" deck="3" channel="3" />
+    <bar cc="0x3C" min="0x01" max="0x06" inverted="true" name="LED_JOG_ON" deck="4" channel="4" />
+
+</device>
