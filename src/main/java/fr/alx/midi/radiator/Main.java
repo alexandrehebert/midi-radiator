@@ -20,7 +20,6 @@ public class Main {
     public static void main(String[] args) throws Throwable {
 
         KeyboardWriter keyboard = KeyboardWriter.create();
-        setOutputVolume(7.0f);
 
         try (DeviceConnector deviceConnector = DeviceConnector.connect(
                 DeviceDiscovery.getMidiDevice("In"),
