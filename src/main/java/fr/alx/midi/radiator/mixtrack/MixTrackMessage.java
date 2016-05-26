@@ -8,6 +8,7 @@ public final class MixTrackMessage {
 
     public final MixTrackControl control;
     public final MixTrackChannel channel;
+
     public final int value;
     private final MidiMessage originalMessage;
 
@@ -28,6 +29,10 @@ public final class MixTrackMessage {
 
     public MixTrackControl getControl() {
         return control;
+    }
+
+    public int getValue() {
+        return value;
     }
 
     @Override

@@ -24,6 +24,11 @@ public enum MixTrackControl {
     JOG_TOUCH(0x4D),
     PFL(0x47),
     SHIFT(0x61),
+    VOLUME_1(0x1E),
+    VOLUME_2(0x14),
+    VOLUME_3(0x19),
+    VOLUME_4(0x23),
+    CROSS_FADER(0x0A),
     UNKOWN(-1),;
 
     final int value;

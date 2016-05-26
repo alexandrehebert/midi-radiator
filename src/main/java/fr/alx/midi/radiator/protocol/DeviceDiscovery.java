@@ -1,4 +1,4 @@
-package fr.alx.midi.radiator;
+package fr.alx.midi.radiator.protocol;
 
 import javax.sound.midi.MidiDevice;
 import javax.sound.midi.MidiSystem;

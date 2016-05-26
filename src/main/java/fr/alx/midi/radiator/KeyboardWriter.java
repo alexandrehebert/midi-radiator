@@ -14,8 +14,24 @@ public class KeyboardWriter {
         this.robot = robot;
     }
 
-    public static KeyboardWriter open() throws AWTException {
+    public static KeyboardWriter create() throws AWTException {
         return new KeyboardWriter(new Robot());
+    }
+
+    public KeyboardWriter press(int key) {
+        robot.keyPress(key);
+        robot.keyRelease(key);
+        return this;
+    }
+
+    public KeyboardWriter down(int key) {
+        robot.keyPress(key);
+        return this;
+    }
+
+    public KeyboardWriter up(int key) {
+        robot.keyRelease(key);
+        return this;
     }
 
     public void write(KeyMapping key) {
@@ -42,7 +58,6 @@ public class KeyboardWriter {
                 break;
         }
     }
-
 
     enum KeyAction {
 

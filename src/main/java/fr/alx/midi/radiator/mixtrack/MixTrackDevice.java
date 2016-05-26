@@ -1,12 +1,9 @@
 package fr.alx.midi.radiator.mixtrack;
 
-import fr.alx.midi.radiator.DeviceConnector;
+import fr.alx.midi.radiator.protocol.DeviceConnector;
 
 import javax.sound.midi.InvalidMidiDataException;
-import javax.sound.midi.MidiMessage;
 import javax.sound.midi.ShortMessage;
-import javax.xml.bind.DatatypeConverter;
-import java.util.Arrays;
 import java.util.stream.Stream;
 
 /**
